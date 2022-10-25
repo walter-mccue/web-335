@@ -1,0 +1,57 @@
+{
+    "NodeShopper": {
+        "customer": [
+            {
+                "_id": "0123456789",
+                "firstName": "John",
+                "lastName": "Smith",
+                "dateOfBirth": "01/01/00",
+                "userName": "johnSmith",
+                "invoice": [
+                    {
+                        "_id": "1234567890",
+                        "createDate": "10/24/22",
+                        "shipDate": "10/24/22",
+                        "subtotal": 100.00,
+                        "lineitem": [
+                            {
+                                "_id": "0987654321",
+                                "productName": "Sale Item",
+                                "price": 50.00,
+                                "quantity": 2
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+
+
+    "NodeTech": {
+        "student": [
+            {
+                "studentId": 8675309,
+                "firstName": "Jesse's",
+                "lastName": "Girl",
+                "enrollment": [
+                    {
+                        "term": "Fall 2022",
+                        "gpa": 4.0,
+                        "startDate": "10/17/22",
+                        "endDate": "12/18/22",
+                        "course": [
+                            {
+                                "courseId": "web-335",
+                                "description": "Introduction to NoSQL",
+                                "instructor": "Richard Krasso",
+                                "score": 100,
+                                "letterGrade": "A"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
