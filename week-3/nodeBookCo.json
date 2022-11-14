@@ -1,39 +1,25 @@
 {
     "nodeBookCo": {
-        
-        "books": [
-            {
-                "book_isbn": 123456789,
-                "book_name": "Example Book",
-                "book_price": 99.99
-            }
-        ],
-        
         "publishers": [
             {
                 "publisher_name": "Publisher1",
                 "publisher_code": 1234567890,
-                "publisher_address": {
-                    "street": "1234 Street",
-                    "city": "Orlando, FL 32828"
-                }
-            }
-        ],
-
-        "authors": [
-            {
-                "author_first_name": "John",
-                "author_last_name": "Smith",
-                "author_phone": 1234567890,
-                "author_email": "john.smith@author.com"
-            }
-        ],
-
-        "link_table": [
-            {
-                "book_isbn": 123456789,
-                "publisher_code": 1234567890,
-                "author_email": "john.smith@author.com"
+                "publisher_address": "1234 Street, Orlando, FL 32828",
+                "books": [
+                    {
+                        "book_isbn": 123456789,
+                        "book_name": "Example Book",
+                        "book_price": 99.99,
+                        "authors": [
+                            {
+                                "author_first_name": "John",
+                                "author_last_name": "Smith",
+                                "author_phone": 1234567890,
+                                "author_email": "john.smith@author.com"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }

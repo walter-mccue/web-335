@@ -1,0 +1,17 @@
+{
+    "nodeSecurity": {
+        "userName": "SmithJ001",
+        "firstName": "John",
+        "lastName": "Smith",
+        "roles": [
+            {
+                "role1": "Admin",
+                "permissions": [
+                    {
+                        "Admin": "Read, Write, Execute"
+                    }
+                ]
+            }
+        ]
+    }
+}
