@@ -1,0 +1,27 @@
+{
+    "whatABook": {
+        "books": [
+            {
+                "title": "It",
+                "author": "Stephen King",
+                "genre": "Horror",
+                "bookId": "1001"
+            }
+        ],
+        "customers": [
+            {
+                "firstName": "Wednesday",
+                "lastName": "Addams",
+                "customerId": "2001",
+                "wishlist": [
+                    {
+                        "title": "It",
+                        "author": "Stephen King",
+                        "genre": "Horror",
+                        "bookId": "1001"
+                    }
+                ]
+            }
+        ]
+    }
+}
